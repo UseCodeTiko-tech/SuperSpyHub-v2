@@ -569,7 +569,7 @@ end
 				showSecrets()
     		end    
     	})
-		Extras:AddToggle({
+		Extra:AddToggle({
     		Name = "Auto Claim Mine Chest",
     		Default = false,
     		Callback = function(Value)
