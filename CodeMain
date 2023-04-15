@@ -464,7 +464,8 @@ end
 				}
 				
 				game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimChest"):FireServer(unpack(args))
-				wait(5)				
+				wait(5)		
+			end		
 			end	
     	--Tabs
     	local FarmTab = Window:MakeTab({
